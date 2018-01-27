@@ -13150,32 +13150,34 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <p><strong>Strengths</strong> 1) Prone to Overfitting  2) Simple and easy to program 3) Provably effective given
 Weak Learning Assumption</p>
 <p><strong>Weakness</strong> 1) AdaBoost is sensitive to noisy data and outliers 2) Weak learners too complex can lead to overfitting</p>
-<p><strong>Why this model</strong> By analyzing the dataset and by looking at the machine-learning-map from sciket learn <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a> 
-I decided to choose this model as our model because our model has these characterstics 
-<strong>We are predicting category </strong>
-<strong>Labeled data</strong>
-<strong>Dataset has less than 100K sample points</strong>
-<strong> Two class Classification</strong></p>
-<p>In Addition to this Ensemble(Adaboost) has these advantages 
-<strong>Accurate Results</strong>
-<strong>Less Training time neeeded</strong>
-<a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
+<p><strong>Why this model</strong> By analyzing the dataset and by looking at the machine-learning-map from sciket learn 
+<a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a></p>
+<p>I decided to choose this model as our model because our model has these characterstics</p>
+<p><strong>We are predicting category </strong></p>
+<p><strong>Labeled data</strong></p>
+<p><strong>Dataset has less than 100K sample points</strong></p>
+<p><strong> Two class Classification</strong></p>
+<p>In Addition to this Ensemble(Adaboost) has these advantages</p>
+<p><strong>Accurate Results</strong></p>
+<p><strong>Less Training time neeeded</strong></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
 <p><strong>2 Gaussian Naive Bayes</strong> Naive Bayes is a classification algorithm for binary (two-class) and multi-class classification problems. The technique is easiest to understand when described using binary or categorical input values.It is called naive Bayes or idiot Bayes because the calculation of the probabilities for each hypothesis are simplified to make their calculation tractable. Rather than attempting to calculate the values of each attribute value P(d1, d2, d3|h), they are assumed to be conditionally independent given the target value and calculated as P(d1|h) * P(d2|H) and so on.This is a very strong assumption that is most unlikely in real data, i.e. that the attributes do not interact. Nevertheless, the approach performs surprisingly well on data where this assumption does not hold</p>
 <p><strong>Real world application</strong>  Because of the independence assumption, naive Bayes classifiers are highly scalable and can quickly learn to use high dimensional features with limited training data. This is useful for many real world datasets where the amount of data is small in comparison with the number of features for each individual piece of data, such as speech, text, and image data. Examples of modern applications include <strong>spam filtering</strong>,<strong>automatic medical diagnoses, medical image processing</strong></p>
 <p><strong>Strengths</strong> Need less training data. 2)Highly scalable. It scales linearly with the number of predictors and data points. 3)Can be used for both binary and mult-iclass classification problems. 4)Can make probabilistic predictions.</p>
 <p><strong>Weakness</strong> Does not work well large dataset</p>
-<p><strong>Why this model </strong> By looking at the Sciket learn Machine Learning map from <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a>
-i Decided to choose this model because 
-<strong> Dataset has &gt;50 samples</strong>
-<strong> Predicting a category</strong>
-<strong> Have labeled data</strong>
-<strong> Have &lt; 100K samples</strong>
-<strong> Have text Data</strong>
-<strong> Two class Classification</strong></p>
-<p>In addition to this Gaussian Naive bayes provides additional advantages
-<strong> Provides a linear model</strong>
-<strong> Fast Training</strong>
-<a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
+<p><strong>Why this model </strong> By looking at the Sciket learn Machine Learning map from
+<a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a></p>
+<p>I Decided to choose this model because</p>
+<p><strong> Dataset has &gt;50 samples</strong></p>
+<p><strong> Predicting a category</strong></p>
+<p><strong> Have labeled data</strong></p>
+<p><strong> Have &lt; 100K samples</strong></p>
+<p><strong> Have text Data</strong></p>
+<p><strong> Two class Classification</strong></p>
+<p>In addition to this Gaussian Naive bayes provides additional advantages</p>
+<p><strong> Provides a linear model</strong></p>
+<p><strong> Fast Training</strong></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
 <p><strong>3 Support Vector machine</strong></p>
 <p><strong>Real world application </strong>Support Vector Machines Based Modeling of Seismic Liquefaction Potential<br>
 This paper investigate the potential of support vector machines based classification approach to assess the liquefaction potential from actual standard penetration test (SPT) and cone penetration test (CPT) field data. Support vector machines are based on statistical learning theory and found to work well in comparison to neural networks in several other applications. Both CPT and SPT field data sets is used with support vector machines for predicting the occurrence and nonoccurrence of liquefaction based on different input parameter combination. With SPT and CPT test data sets, highest accuracy of 96% and 97% respectively was achieved with support vector machines. This suggests that support vector machines can effectively be used to model the complex relationship between different soil parameter and the liquefaction potential. Several other combinations of input variable were used to assess the influence of different input parameters on liquefaction potential. Proposed approach suggest that neither normalized cone resistance value with CPT data nor the calculation of standardized SPT value is required with SPT data. Further, support vector machines required few user-defined parameters and provide better performance in comparison to neural network approach. 
@@ -13188,18 +13190,19 @@ Data link(s):<a href="http://www.clopinet.com/SVM.applications.html">http://www.
 <p><strong>Strength</strong> SVM supports kernels so we can use SVM even if there is no linear relationship</p>
 <p><strong>Weakness</strong> 1)Perhaps the biggest limitation of the support vector approach lies in choice of the kernel. 2)A second limitation is speed and size, both in training and testing. 3)Discete data presents another problem</p>
 <p><strong>Why this model</strong> While SVM supports non linear classification. So i decided to use it in case there is a non-linearity in my model, I can easily handle it with SVM</p>
-<p>By looking at the Sciket learn Machine Learning map from <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a>
-i Decided to choose this model because 
-<strong> Dataset has &gt;50 samples</strong>
-<strong> Predicting a category</strong>
-<strong> Have labeled data</strong>
-<strong> Have &lt; 100K samples</strong>
-<strong> Have text Data</strong>
-<strong> since we have to predict on boniary values (&gt;=50K, &lt; 50)</strong> Two-Class SVM  is well suited to above dataset</p>
-<p>In addition to this SVM bayes provides additional advantages
-<strong> Provides a linear model</strong>110
-<strong> Fast Training</strong>
-<a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
+<p>By looking at the Sciket learn Machine Learning map from <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">http://scikit-learn.org/stable/tutorial/machine_learning_map/</a></p>
+<p>I Decided to choose this model because</p>
+<p><strong> Dataset has &gt;50 samples</strong></p>
+<p><strong> Predicting a category</strong></p>
+<p><strong> Have labeled data</strong></p>
+<p><strong> Have &lt; 100K samples</strong></p>
+<p><strong> Have text Data</strong></p>
+<p><strong> Since we have to predict on binary values (&gt;=50K, &lt; 50)</strong></p>
+<p>Two-Class SVM  is well suited for the  above dataset</p>
+<p>In addition to this SVM bayes provides additional advantages</p>
+<p><strong> Provides a linear model</strong></p>
+<p><strong> Fast Training</strong></p>
+<p><a href="https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet">https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-cheat-sheet</a></p>
 
 </div>
 </div>
